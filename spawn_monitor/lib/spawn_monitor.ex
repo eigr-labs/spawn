@@ -1,0 +1,2 @@
+defmodule SpawnMonitor do
+end

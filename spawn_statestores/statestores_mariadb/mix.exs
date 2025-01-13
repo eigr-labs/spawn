@@ -57,6 +57,7 @@ defmodule StatestoresMysql.MixProject do
     [
       {:cloak_ecto, "~> 1.2"},
       {:ecto_sql, "~> 3.12"},
+      {:ecto_mysql_extras, "~> 0.6.3"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:myxql, "~> 0.6"},
       {:spawn_statestores, path: "../statestores"}

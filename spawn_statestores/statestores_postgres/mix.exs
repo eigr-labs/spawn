@@ -57,6 +57,7 @@ defmodule StatestoresPostgres.MixProject do
     [
       {:cloak_ecto, "~> 1.2"},
       {:ecto_sql, "~> 3.12"},
+      {:ecto_psql_extras, "~> 0.8"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:postgrex, "~> 0.17"},
       {:spawn_statestores, path: "../statestores"}
