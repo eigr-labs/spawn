@@ -96,7 +96,7 @@ defmodule Spawn.MixProject do
       {:uuid, "~> 1.1"},
       {:broadway, "~> 1.1"},
       # temporary until bandit releases 1.5.4
-      {:hpax, "~> 0.1.1"},
+      {:hpax, "~> 1.0.2"},
       # Metrics & Tracing deps
       {:telemetry_poller, "~> 1.0"},
       {:telemetry_metrics, "~> 1.0"},
